@@ -17,6 +17,7 @@
 
 РЕШЕНИЕ ЗАДАЧИ:
 
+
 ticket = int(input('Введите количество билетов: '))
 cost = 0.0
 for i in range(ticket):
@@ -26,21 +27,17 @@ for i in range(ticket):
     elif 18 <= age < 25:
         cost = cost + 990
     else: cost = cost + 1390
-    if ticket > 3:
-        cost = cost * 0.9
+if ticket > 3:
+    cost = cost * 0.9
 print('Итого'+ ' ' + str(round(cost)) + ' ' + 'рублей')
 
 ОТВЕТ:
-Введите количество билетов: 7
-
-Введите возраст: 18
-Введите возраст: 23
-Введите возраст: 33
-Введите возраст: 35
+Введите количество билетов: 4
 Введите возраст: 45
-Введите возраст: 19
+Введите возраст: 32
+Введите возраст: 21
 Введите возраст: 17
-Итого 4548 рублей
+Итого 3393 рублей
 
 Process finished with exit code 0
 Process finished with exit code 0
